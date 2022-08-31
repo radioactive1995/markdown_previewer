@@ -1,0 +1,46 @@
+.container-previewer {
+    width: 65%;
+    height: auto;
+    min-height: 800px;
+    border: 10px groove red;
+    min-width: 800px;
+    font-size: 1.3em;
+    background: #c0d8d8;
+    overflow: hidden;
+}
+
+.header-previewer {
+    width: 100%;
+    height: 8%;
+    max-height: 63px;
+    background: rgb(199, 190, 190);
+    border-bottom: 10px red groove;
+    text-align: center;
+}
+
+.header-previewer h1 {
+    position: relative;
+    margin: 0;
+    top: 5%;
+}
+
+#preview {
+    padding-left: 10px;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-size: 1.3em;
+    height: 100%;
+}
+
+@media only screen and (max-width: 1650px) {
+    .container-previewer {
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .container-previewer {
+        font-size: 1em;
+    }
+}
+
